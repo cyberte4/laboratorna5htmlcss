@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3a4965;
+  color: #484848;
+}
+
+.wrapper {
+  margin: 0 auto; /* Це центрує контейнер в браузері */
+  width: 100%;
+  margin-top: 30px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse; /* Об'єднує кордони сусідніх комірок */
+}
+
+td {
+  height: 70px;
+  width: 275px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: white;
+  border-left: 1px solid #cfcfcf;
+}
+
+.chooseplan {
+  text-align: center;
+}
+
+.chooseplan-small {
+  font-weight: bold;
+}
+
+.chooseplan-big {
+  font-weight: bold;
+  font-size:20px ;
+}
+
+.standard-button,.ultimate-button,.premium-button {
+  height: 70px;
+  width: 277px;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  font-size: 20px;
+}
+
+.standard-button,.buy-now-green {
+  background-color: #89c331;
+}
+
+.ultimate-button,.buy-now-red {
+  background-color: #f04a56;
+}
+
+.premium-button,.buy-now-blue {
+  background-color: #20807c;
+}
+
+p {
+  font-size: 13px;
+}
+
+i {
+  padding: 10px;
+}
+
+.white-background {
+  background-color: #f2f2f2;
+}
+
+.grey-background {
+  background-color: #e3e3e3;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big_price {
+  font-size:43px ;
+  font-weight: bold;
+}
+
+.price-cent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.small_price {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.men {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-button,.buy-now-green,.buy-now-red,.buy-now-blue {
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  margin: 25px 0;
+}
+
+.contact-us-button {
+  background-color: #484848;
+}
+
+.button-wrapper:hover {
+  transform: scale(1.1);
+}
